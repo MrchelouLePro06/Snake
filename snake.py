@@ -18,7 +18,7 @@ snake_body = [pygame.Vector2(snake_pos)]
 
 #Time and move speed
 speed = pygame.Vector2(50, 50)
-move_delay = 120  # Vitesse du serpent, 100 = rapide, 120 = plus lent
+move_delay = 120  #snake's move speed, 100 = fast, 120 = slower
 lastMoveTime = pygame.time.get_ticks()
 
 #Direction of movement
